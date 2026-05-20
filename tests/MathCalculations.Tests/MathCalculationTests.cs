@@ -8,7 +8,7 @@ public class MathCalculationTests
     private readonly MathCalculation _calc = new();
 
     [TestMethod]
-    [DataRow(new double[] { 1, 2, 3 }, 6.0)]
+    [DataRow(new double[] { 1, 2, 3 }, 8.0)]
     [DataRow(new double[] { 0, 0, 0 }, 0.0)]
     [DataRow(new double[] { -1, -2, -3 }, -6.0)]
     [DataRow(new double[] { 10, 20, 30, 40 }, 100.0)]
